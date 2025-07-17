@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>トップページ</title>
+    <link rel="stylesheet" href="common/stylesheet.css">
+    <link rel="stylesheet" href="common/lib/jquery.bxslider.css">
+    <link rel="stylesheet" href="common/lib/lightbox.css">
+    <link rel="stylesheet" href="common/common.css">
+    <script src="common/lib/lightbox.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="headerTop">
+            <a href="index.html"><img id="logo" src="images/common/logo.jpg" alt="ロゴ"></a>
+            <nav>
+                <ul id="headerGnavi">
+                    <li id="headerGnavi_NEW"><a href="#">NEW</a></li>
+                    <li class="headerGnavi_human"><a href="#">WOMEN</a></li>
+                    <li class="headerGnavi_human"><a href="#">MEN</a></li>
+                    <li class="headerGnavi_human"><a href="#">KIDS</a></li>
+                </ul>
+            </nav>
+            <div id="search">
+                <form action="#" method="get">
+                    <input id="searchitem" type="text" name="item" placeholder="キーワードを入力してください">
+                </form>
+                <div id="search_icon"><img src="./images/common/search_icon.png" alt="検索アイコン"></div>
+            </div>
+            <div id="headerIcon">
+                <a href=""><img id="mypage" src="images/common/mypage.png" alt="マイページアイコン"></a>
+                <a href=""><img id="cart" src="images/common/cart.png" alt="カートアイコン"></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <a href="#" id="top_botton">
+            <div id="topbotton_p">
+                <p>BACK</p>
+                <p id="p_to">TO</p>
+                <p>TOP</p>
+            </div>
+        </a>
+        <section id="section_chachphrase">
+            <h1>Run, feel fee, live fully.</h1>
+            <div id="mainImage">
+                <ul>
+                    <li><img id="mainImage1" src="images/index/mainPhoto1.jpg" alt="メイン画像１"></li>
+                    <li><img id="mainImage2" src="images/index/mainPhoto2.jpg" alt="メイン画像２"></li>
+                    <li><img id="mainImage3" src="images/index/mainPhoto3.jpg" alt="メイン画像３"></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="section_NEWARRIVAL">
+            <h2>NEW ARRIVAL</h2>
+            <ul id="NA_images">
+                <li><a href="images/index/NewArrivals1_large.jpg" rel="lightbox">
+                        <img id="NA_image1" src="images/index/NewArrivals1.jpg" alt="新作画像１" width="368" height="370">
+                    </a>
+                </li>
+                <li><a href="images/index.images/NewArrivals2_large.jpg" rel="lightbox">
+                        <img id="NA_image2" src="images/index/NewArrivals2.jpg" alt="新作画像２" width="368" height="370">
+                    </a>
+                </li>
+                <li><a href="images/index.images/NewArrivals3_large.jpg" rel="lightbox">
+                        <img id="NA_image3" src="images/index/NewArrivals3.jpg" alt="新作画像３" width="368" height="370">
+                    </a>
+                </li>
+            </ul>
+            <div id="NA_button_area">
+                <a id="NA_button" href="#">新作一覧を見る</a>
+            </div>
+        </section>
+
+        <section id="section_CATEGORY">
+            <h2>CATEGORY</h2>
+            <ul id="category">
+                <li><a href="products_list.html"><img id="women" src="images/index/women.jpg" alt="女性"></a></li>
+                <li><a href="products_list.html"><img id="men" src="images/index/men.jpg" alt="男性"></a>
+                </li>
+                <li><a href="products_list.html"><img id="kids" src="images/index/kids.jpg" alt="子供"></a></li>
+            </ul>
+        </section>
+
+        <section id="section_SIGNUP">
+            <div id="sign_up">
+                <h3>新規会員登録限定</h3>
+                <p id="signup_coupon"><span class="highlight">￥1,000 OFF</span> COUPON</p>
+                <p id="signup_day">3月20日(金) 23:59まで</p>
+                <p id="signup_p">新規会員登録後、初回オンラインショップで使える</p>
+                <p id="signup_off">￥1,000 off couponを配布します。</p>
+                <form action="#" method="get" id="signup_form">
+                    <div id="mail">
+                        <div id="mail_inner">
+                            <p>メールアドレス</p>
+                            <input type="email" name="mail" placeholder="example@aaa.co.jp">
+                        </div>
+                    </div>
+                    <div id="birth_day">
+                        <div id="birth_inner">
+                            <label for="date_of_birth">生年月日</label>
+                            <input type="date" name="date_of_birth" id="date_of_birth">
+                        </div>
+                    </div>
+                    <input type="submit" value="会員登録">
+                </form>
+            </div>
+        </section>
+
+        <section id="section_STORE">
+            <h2>店舗情報</h2>
+            <ul id="access">
+                <li><iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26148.324706957468!2d135.7287557702494!3d34.993170517914926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001061f709ae1b3%3A0x24b6e0f6cc19d7d!2z5Lqs6YO95bqc5Lqs6YO95biC5LiL5Lqs5Yy6!5e0!3m2!1sja!2sjp!4v1741953524039!5m2!1sja!2sjp"
+                        width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe></li>
+                <li>
+                    <div id="storeInfo">
+                        <table>
+                            <tr>
+                                <th id="adress">住所</th>
+                                <td>京都府京都市下京区〇〇1234番地<br>
+                                    ABCビル F1</td>
+                            </tr>
+                            <tr>
+                                <th>[営業時間]</th>
+                                <td>11:00~20:30</td>
+                            </tr>
+                        </table>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <div id="marathon">
+            <img id="marathonImage" src="images/index/marathon.jpg" alt="マラソン大会案内">
+            <div id="marathon_button_area">
+                <a id="marathon_button" href="">公式サイトはこちら</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div id="footer">
+            <div id="storeInfo_block">
+                <h3 class="footer">店舗情報</h3>
+                <ul>
+                    <li><a href="#">企業情報</a></li>
+                    <li><a href="#">店舗一覧</a></li>
+                    <li><a href="#">採用情報</a></li>
+                </ul>
+            </div>
+            <div id="service_block">
+                <h3 id="footer_service" class="footer">便利な機能・サービス</h3>
+                <ul>
+                    <li><a href="#">初めての方はこちら</a></li>
+                    <li><a href="#">お問合せ</a></li>
+                    <li><a href="#">お支払いについて</a></li>
+                </ul>
+            </div>
+            <div id="gide_block">
+                <h3 class="footer">ご利用ガイド</h3>
+                <ul>
+                    <li><a href="#">公式アプリ</a></li>
+                    <li><a href="#">SNS公式アカウント</a></li>
+                    <li>
+                        <div id="snsIcon">
+                            <a href="#"><img id="insta" src="images/common/Insta_app.png" alt="インスタグラム"></a>
+                            <a href="#"><img id="line" src="images/common/LINE_App.png" alt="ライン"></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery本体 -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- bxSlider -->
+    <script src="common/lib/jquery.bxslider.js"></script>
+
+    <!-- スライドショー -->
+    <script>
+        $(function () {
+            $("#mainImage ul").bxSlider({
+                auto: true,
+                pause: 3000,
+                speed: 500,
+                captions: true,
+                pager: false,
+                controls: false,
+                mode: "fade"
+            });
+        })
+    </script>
+
+    <!-- gnaviクリックで指定範囲に飛ぶ -->
+    <script>
+        $(document).ready(function () {
+            $('#headerGnavi_NEW').on('click', function (e) {
+                e.preventDefault();
+                $('html, body').animate({
+                    scrollTop: $('#section_NEWARRIVAL').offset().top - 65
+                }, 600);
+            });
+            $('.headerGnavi_human').on('click', function (e) {
+                e.preventDefault();
+                $('html, body').animate({
+                    scrollTop: $('#section_CATEGORY').offset().top - 65
+                }, 600);
+            });
+        });
+    </script>
+
+    <!-- トップに戻る -->
+    <script>
+        $('#top_botton').on('click', function (e) {
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: 0
+            }, 1000);
+        });
+    </script>
+</body>
+
+</html>

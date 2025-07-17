@@ -1,0 +1,169 @@
+#top_botton {
+    font-size: 13px;
+    display: block;
+    text-align: center;
+    background-color: #b2c9b8;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: 1px solid transparent;
+    position: fixed;
+    bottom: 50px;
+    right: 70px;
+}
+
+#topbotton_p {
+    padding: 7px;
+    text-shadow: 2px 2px 4px rgba(128, 125, 125, 0.5);
+}
+
+#p_to {
+    font-size: 12px;
+}
+
+#top_botton:hover {
+    background-color: #b2c9b8;
+    color: white;
+    border-color: black;
+}
+
+#section_POPULAR {
+    width: 1166px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 90px;
+}
+
+#popular_series {
+    width: 146px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 20px;
+}
+
+#section_POPULARL_ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#heart {
+    position: relative;
+    right: 43px;
+    top: 8px;
+}
+
+#heart_pink {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    display: none;
+}
+
+#heart_grey {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#section_POPULARL_ul li {
+    text-align: center;
+}
+
+#section_WOMEN {
+    width: 1166px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 90px;
+}
+
+#section_WOMEN h2 {
+    width: 94px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 20px;
+}
+
+#section_WOMEN_ul {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+main li img {
+    transition: transform 0.3s ease;
+}
+
+main li img:hover {
+    transform: scale(1.05);
+}
+
+#section_WOMEN_ul li {
+    text-align: center;
+}
+
+#rism_run:hover {
+    filter: brightness(90%);
+    transition: filter 0.3s ease;
+}
+
+#section_MEN {
+    width: 1166px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 90px;
+}
+
+#section_MEN h2 {
+    width: 54px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 20px;
+}
+
+#section_MEN_ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#section_MEN_ul li {
+    text-align: center;
+}
+
+#section_KIDS {
+    width: 1166px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 90px;
+}
+
+#section_KIDS h2 {
+    width: 58px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 20px;
+}
+
+#section_KIDS_ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#section_KIDS_ul li {
+    text-align: center;
+}
+
+h4 {
+    line-height: 2;
+}

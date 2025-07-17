@@ -1,0 +1,285 @@
+/* キャッチフレーズ */
+#section_chachphrase {
+    width: 1166px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+h1 {
+    display: inline-block;
+    width: 100%;
+    font-size: 100px;
+    font-family: "Work Sans", sans-serif;
+    color: #333333;
+}
+
+#mainImage {
+    width: 1166px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#top_botton {
+    font-size: 13px;
+    display: block;
+    text-align: center;
+    background-color: #b2c9b8;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: 1px solid transparent;
+    position: fixed;
+    bottom: 50px;
+    right: 70px;
+}
+
+#topbotton_p {
+    padding: 7px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#p_to {
+    font-size: 12px;
+}
+
+#top_botton:hover {
+    background-color: #b2c9b8;
+    color: white;
+    border-color: #575354;
+}
+
+#section_NEWARRIVAL {
+    margin-bottom: 90px;
+    width: 1166px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#section_NEWARRIVAL h2 {
+    text-align: center;
+
+}
+
+#NA_images {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#NA_button_area {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#NA_button {
+    color: white;
+    background-color: black;
+    display: inline-block;
+    line-height: 48px;
+    width: 300px;
+    border-radius: 24px;
+    transition: all 0.3s ease;
+}
+
+#NA_button:hover {
+    transform: scale(1.1);
+    background-color: #333;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+#NA_images li {
+    transition: transform 0.3s ease;
+}
+
+#NA_images li:hover {
+    transform: scale(1.05);
+}
+
+#section_CATEGORY {
+    width: 1166px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 90px;
+}
+
+#section_CATEGORY h2 {
+    text-align: center;
+}
+
+#category {
+    margin: 20px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#category li:hover {
+    opacity: 0.6;
+}
+
+#section_SIGNUP {
+    margin-bottom: 90px;
+    width: 1166px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sign_up {
+    width: 510px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h3 {
+    color: #e60033;
+    margin: 10px;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #ff9900;
+    font-size: 1.4em;
+}
+
+#signup_coupon {
+    font-size: 24px;
+}
+
+#signup_day {
+    font-size: 12px;
+}
+
+#sign_up p {
+    display: block;
+    margin: 10px;
+}
+
+#signup_off {
+    width: 487px;
+}
+
+#signup_form {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #f3f0f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+#mail,
+#birth_day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 115px;
+}
+
+#mail_inner,
+#birth_inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#mail_inner p,
+#birth_inner label,
+#mail_inner input,
+#birth_inner input {
+    margin: 10px 0;
+    text-align: center;
+}
+
+#section_STORE {
+    margin-bottom: 90px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#section_STORE h2 {
+    text-align: center;
+}
+
+#access {
+    width: 880px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+iframe {
+    width: 370px;
+    height: 370px;
+}
+
+#storeInfo {
+    width: 370px;
+    height: 220px;
+}
+
+#storeInfo table {
+    display: block;
+    margin-top: 40px;
+}
+
+#storeInfo table th {
+    display: block;
+}
+
+#adress {
+    display: block;
+    width: 76px;
+}
+
+#storeInfo table tr {
+    display: block;
+    margin: 70px 70px;
+    display: flex;
+}
+
+#storeInfo table td {
+    width: 245px;
+    display: block;
+    margin-left: 10px;
+}
+
+#marathon {
+    width: 1166px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 90px;
+}
+
+#marathon_button_area {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#marathon_button {
+    color: white;
+    background-color: black;
+    display: inline-block;
+    line-height: 48px;
+    width: 300px;
+    border-radius: 24px;
+    transition: all 0.3s ease;
+}
+
+#marathon_button:hover {
+    transform: scale(1.1);
+    background-color: #333;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
